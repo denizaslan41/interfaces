@@ -4,7 +4,7 @@ public class SmsLogger implements Logger{
 
 	@Override
 	public void Log(String message) {
-		System.out.println("Sms Gönderildi" + message);
+		System.out.println("Sms Gönderildi : " + message);
 		
 	}
 
